@@ -1,44 +1,19 @@
-#------------------------
-#  Main ignored items
-#------------------------
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
 
-/wp-config.php
-//wp-config.php
-.maintenance
-versionpress.maintenance
-/.htaccess
-/web.config
+# Other files and folders
+.settings/
 
-/wp-content/*
-!/wp-content/db.php
-!/wp-content/index.php
-!/wp-content/plugins/
-/wp-content/plugins/versionpress/
-!/wp-content/mu-plugins/
-!/wp-content/themes/
-!/wp-content/languages/
-!/wp-content/uploads/
-!/wp-content/vpdb/
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-
-#------------------------
-#  Log files
-#------------------------
-
-*.log
-error_log
-access_log
-
-
-#------------------------
-#  OS Files
-#------------------------
-
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-*[Tt]humbs.db
-*.Trashes
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
